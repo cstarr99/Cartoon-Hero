@@ -1,0 +1,20 @@
+p {
+    font-family: arial;
+    margin-top: 80px;
+}
+
+
+.video-title {
+font-family: Arial;
+font-size: 30px;
+font-weight: bold;
+font-style: italic;
+text-align: center;
+}
+.bottom-thing {
+font-style: italic;
+}
+
+.italic:hover {
+font-style: italic;
+}
