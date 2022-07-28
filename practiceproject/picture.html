@@ -15,7 +15,22 @@
                 display: block;
             }
             .search-bar {
-                display: block;
+                flex: 1;
+                height: 34px;
+                padding-left: 10px;
+                font-size: 16px;
+                border-width: 1px;
+                border-style: solid;
+                border-color: gray;
+                border-radius: 2px;
+                box-shadow: inset 1px 2px 3px;
+
+            }
+            .search-bar::placeholder {
+                font-family: Arial;
+                font-size: 16px;
+                
+
             }
             
             .channel-picture {
@@ -38,6 +53,7 @@
             }
             .thumbnail-row {
              margin-bottom: 12px;
+             position: relative;
               
             }
 
@@ -54,19 +70,152 @@
                 column-gap: 16px;
                 row-gap: 60px;
             }
+            body {
+                margin: 0;
+                padding-top: 80px;
+                padding-left: 80px;  
+            }
+            .header {
+                height: 55px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                z-index: 100;
+            
+                background-color: white;
+                border-bottom-width: 1px;
+                border-bottom-style: solid;
+                border-bottom-color: gray;
+                
+
+            
+            }
+            .notification-count {
+                position: absolute;
+                top: 0;
+                right: 0;
+                background-color: red;
+                color: white;
+                
+
+            }
+            .notification-icon {
+                height: 30px;
+            }
+            .notification-icon-container {
+                position: relative;
+            }
+            .left-section {
+                display: flex;
+                align-items: center;
+            }
+            .right-section {
+                display: flex;
+                align-items: center;
+                
+            }
+            .middle-section {
+                flex: 1;
+                margin-right: 35px;
+                margin-left: 70px;
+                max-width: 900px;
+                display: flex;
+                align-items: center;
+            }
+            .hamburger-icon {
+                height: 24px;
+                margin-right: 20px;
+                margin-left: 24px;
+            }
+
+            .youtube-logo {
+                height: 20px;
+            }
+            .search-button {
+                height: 50px;
+                width: 50px;
+            }
+            .search-icon:hover {
+                opacity: 5;
+            }
+            .voice-search {
+                height: 50px;
+                width: 50px;
+                
+            }
+            .sidebar {
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                top: 55px;
+                background-color: white;
+                width: 72px;
+        
+            }
+            .video-time {
+                background-color: black;
+                color: white;
+                position: absolute;
+                bottom: 8px;
+                right: 5px;
+                
+        
+            }
+            .search-icon {
+                height: 20px;
+                width: 20px;
+            }
+            .voice-icon {
+                height: 20px;
+                width: 20px;
+            }
+          
+
         </style>
     </head>
     <body>
+        <div class="header">
+            <div class="left-section"> 
+                <img class="hamburger-icon" src="pictures/hamburger-icon.png">
+                <img class="youtube-logo" src="pictures/youtube-logo.png">
+            </div>
+            <div class="middle-section">
     <input class="search-bar" type="text" placeholder="Search">
+    <button class="search-button">
+        <img class="search-icon" src="pictures/search-button.jpeg">
+    </button>
+    <button class="voice-search">
+        <img class="voice-icon" src="pictures/voice-search.jpeg">
+    </button>
+    </div>
+    <div class="right-section">
+        <div class="notification-icon-container">
+            <p>HELLO</p>
+       <div class="notifications-count">3</div>
+       </div>
+       
+    </div>
+     </div>
+
+     <div class="sidebar">
+      sidebar
+     </div>
+
 
     <div class="video-grid">
      <div class="video-preview">
        <div class="thumbnail-row">
-         <img class="thumbnail" src="hq720.webp">
+         <img class="thumbnail" src="pictures/hq720.webp">
+         <div class="video-time">14:20</div>
         </div>
          <div class="video-info-grid">
           <div class="channel-picture">
-            <img class="profile-pic" src="unnamed.jpeg">
+            <img class="profile-pic" src="pictures/unnamed.jpeg">
         </div>
        <div class="video-info">  
         <p class="video-title">You wont believe what they are hiding!</p>
@@ -80,11 +229,11 @@
 
     <div class="video-preview">
         <div class="thumbnail-row">
-          <img class="thumbnail" src="hq720.webp">
+          <img class="thumbnail" src="pictures/hq720.webp">
          </div>
           <div class="video-info-grid">
            <div class="channel-picture">
-             <img class="profile-pic" src="unnamed.jpeg">
+             <img class="profile-pic" src="pictures/unnamed.jpeg">
          </div>
         <div class="video-info">  
          <p class="video-title">You wont believe what they are hiding!</p>
@@ -97,11 +246,11 @@
 
      <div class="video-preview">
         <div class="thumbnail-row">
-          <img class="thumbnail" src="hq720.webp">
+          <img class="thumbnail" src="pictures/hq720.webp">
          </div>
           <div class="video-info-grid">
            <div class="channel-picture">
-             <img class="profile-pic" src="unnamed.jpeg">
+             <img class="profile-pic" src="pictures/unnamed.jpeg">
          </div>
         <div class="video-info">  
          <p class="video-title">You wont believe what they are hiding!</p>
@@ -114,11 +263,11 @@
 
      <div class="video-preview">
         <div class="thumbnail-row">
-          <img class="thumbnail" src="hq720.webp">
+          <img class="thumbnail" src="pictures/hq720.webp">
          </div>
           <div class="video-info-grid">
            <div class="channel-picture">
-             <img class="profile-pic" src="unnamed.jpeg">
+             <img class="profile-pic" src="pictures/unnamed.jpeg">
          </div>
         <div class="video-info">  
          <p class="video-title">You wont believe what they are hiding!</p>
@@ -131,11 +280,11 @@
 
      <div class="video-preview">
         <div class="thumbnail-row">
-          <img class="thumbnail" src="hq720.webp">
+          <img class="thumbnail" src="pictures/hq720.webp">
          </div>
           <div class="video-info-grid">
            <div class="channel-picture">
-             <img class="profile-pic" src="unnamed.jpeg">
+             <img class="profile-pic" src="pictures/unnamed.jpeg">
          </div>
         <div class="video-info">  
          <p class="video-title">You wont believe what they are hiding!</p>
@@ -148,11 +297,11 @@
 
      <div class="video-preview">
         <div class="thumbnail-row">
-          <img class="thumbnail" src="hq720.webp">
+          <img class="thumbnail" src="pictures/hq720.webp">
          </div>
           <div class="video-info-grid">
            <div class="channel-picture">
-             <img class="profile-pic" src="unnamed.jpeg">
+             <img class="profile-pic" src="pictures/unnamed.jpeg">
          </div>
         <div class="video-info">  
          <p class="video-title">You wont believe what they are hiding!</p>
