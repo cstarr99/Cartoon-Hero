@@ -1,0 +1,12 @@
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 90px;
+    align-items: center;
+    padding-left: 25pc;
+}
+.posts {
+    height: 35pc;
+    width: 30pc;
+}
+
