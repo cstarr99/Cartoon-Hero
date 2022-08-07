@@ -1,8 +1,33 @@
 .sidebar {
+    width: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     position: fixed;
     left: 0;
     bottom: 0;
     top: 55px;
+
     background-color: white;
-    width: 72px;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    
 }
+ .message-1 {
+    display: flex;
+    align-items: center;
+ }
+ .message-2 {
+    display: flex;
+    align-items: center;
+ }
+ .message-3 {
+    display: flex;
+    align-items: center;
+ }
+ .message-4 {
+    display: flex;
+    align-items: center;
+ }

@@ -1,9 +1,11 @@
+.body {
+    border: 5px solid black;
+}
 .main-grid {
     display: grid;
-    grid-template-columns: 1fr;
-    row-gap: 90px;
+    grid-template-columns: 1fr ;
     align-items: center;
-    padding-left: 25pc;
+    justify-content: center;
 }
 .posts {
     height: 35pc;
