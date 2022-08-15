@@ -2,7 +2,7 @@
     height: 55px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
     position: fixed;
     top: 0;

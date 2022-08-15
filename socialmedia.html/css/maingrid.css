@@ -1,14 +1,12 @@
-.body {
-    border: 5px solid black;
-}
+
 .main-grid {
     display: grid;
-    grid-template-columns: 1fr ;
-    align-items: center;
-    justify-content: center;
-}
-.posts {
-    height: 35pc;
-    width: 30pc;
+    grid-template-columns: 1fr;
+    border: 5px solid black;
+    column-gap: 15px;
+    justify-items: center;
+    margin-top: 58px;
+    margin-left: 145px;
+    margin-bottom: 70px;
 }
 

@@ -1,8 +1,8 @@
 .bottombar {
-    height: 62px;
+    height: 55px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
     position: fixed;
     bottom: 0;
@@ -12,23 +12,28 @@
     height: 50px;
 
     background-color: white;
-    border-bottom-width: 3px;
-    border-bottom-style: solid;
-    border-bottom-color: gray;
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: gray;
 }
-.item-1 {
-    display: flex;    align-items: center;
+.home-icon {
+    display: flex; 
+    align-items: center;
 
 }
-.item-2 {
+.search-icon {
     display: flex;
     align-items: center;
 }
-.item-3 {
+.post-icon {
     display: flex;
     align-items: center;
 }
-.item-4 {
+.shop-icon {
+    display: flex;
+    align-items: center;
+}
+.profile {
     display: flex;
     align-items: center;
 }
