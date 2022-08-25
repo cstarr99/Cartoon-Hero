@@ -10,3 +10,81 @@
     margin-bottom: 70px;
 }
 
+.post-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.account-picture {
+    display: flex;
+}
+
+.account-name {
+    display: flex;
+}
+
+.other {
+    display: flex;
+}
+.under-picture {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.likes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.caption {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.comment-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.post-date {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pic1 {
+    height: 600px;
+    width: 50pc;
+}
+.pic2 {
+    height: 600px;
+    width: 50pc;
+}
+.pic3 {
+    height: 600px;
+    width: 50pc;
+}
+.pic4 {
+    height: 600px;
+    width: 50pc;
+}
+.post1 {
+    border: 5px solid black;
+    margin-bottom: 5pc;
+}
+.post2 {
+    border: 5px solid black;
+    margin-bottom: 5pc;
+}
+.post3 {
+    border: 5px solid black;
+    margin-bottom: 5pc;
+}
+.post4 {
+    border: 5px solid black;
+    margin-bottom: 5pc;
+}
+
+   
+
