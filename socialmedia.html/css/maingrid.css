@@ -9,7 +9,10 @@
     margin-left: 145px;
     margin-bottom: 70px;
 }
-
+.post-bottom {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 .post-top {
     display: flex;
     flex-direction: row;
@@ -19,39 +22,31 @@
 .account-picture {
     display: flex;
 }
-
 .account-name {
     display: flex;
 }
-
 .other {
     display: flex;
 }
 .under-picture {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr; 
 }
 .likes {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 .caption {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 .comment-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 .post-date {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 .pic1 {
     height: 600px;
