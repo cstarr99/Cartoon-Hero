@@ -19,7 +19,6 @@
 .home-icon {
     display: flex; 
     align-items: center;
-
 }
 .search-icon {
     display: flex;
@@ -36,4 +35,10 @@
 .profile {
     display: flex;
     align-items: center;
+}
+.bottom-icons {
+    border-radius: 50pc;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
 }
