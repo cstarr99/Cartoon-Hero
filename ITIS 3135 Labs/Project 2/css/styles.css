@@ -1,0 +1,74 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+    font-size: 18px;
+}
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aliceblue;
+    }
+
+
+
+   .links {
+    list-style-type: none;
+    background-color: rgb(192, 231, 244);
+    padding-left: 0;
+    }
+    
+ .links li a:hover {
+      color: blue;
+    
+    }
+    
+.links li a {
+      display: block;
+      width: 75px;
+      text-decoration: none;
+      margin-bottom: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      color: black;
+     
+    }
+    
+    
+.links li {
+      text-align: center;
+      border-bottom: 3px solid rgb(24, 21, 21);
+    }
+    
+.active-link {
+      background-color: rgb(180, 189, 198);
+    }
+
+footer {
+        display: flex;
+        justify-content: center;
+     }
+     .logo {
+        width: 75px;
+        height: 105px;
+    }
+    
+    .copyright {
+        padding-top: 20px;
+        background-color: aliceblue;
+    }
+    h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .main-grid {
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+
+   
+
+     

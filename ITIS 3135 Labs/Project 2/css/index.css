@@ -1,0 +1,56 @@
+.main-grid {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 75ch;
+  line-height: 1.15;
+  position: relative;
+}
+
+
+ h2 {
+    color: brown;
+ }
+
+ footer {
+  position: fixed;
+  bottom: 0px;
+  margin-left: 300px;
+ }
+
+
+ .tab {
+    overflow: hidden;
+    border: 1px solid lavender;
+    background-color: aliceblue;
+  }
+
+
+
+.tab button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    transition: 0.3s;
+  }
+  
+
+  .tab button:hover {
+    background-color: lightgoldenrodyellow;
+  }
+  
+ 
+  .tab button.active {
+    background-color: lightgray;
+  }
+
+  .tab button:hover {
+    background-color: lightblue;
+  }
+  
+ 
+  .tab-para {
+    display: none;
+    border: 1px black;
+  }
+

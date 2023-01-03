@@ -1,0 +1,59 @@
+
+.main-grid {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 75ch;
+    line-height: 1.15;
+}
+
+h2 {
+    color: brown;
+ }
+
+ form, .summary {
+    width: 50pc;
+    padding: 2rem;
+    max-width: 600px;
+    margin: 1rem auto;
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    row-gap: 1rem;
+    column-gap: .5rem;
+    transition: .4s; 
+ }
+
+ div.summary {
+    padding: 0px;
+    width: 500px;
+ }
+
+ label {
+    font-weight: bold;
+ }
+
+ .start-total {
+    transition: ease-in;
+    transition: 5s;
+ }
+
+ button {
+    width: 100px;
+ }
+
+ form {
+    width: 400px;
+ }
+ 
+ p.result {
+    font-size: 20px;
+    transition: font-size 30px 5s;
+    transition-duration: 1s;
+ }
+
+
+p.result:hover {
+    font-size: 25px;
+}
+ 

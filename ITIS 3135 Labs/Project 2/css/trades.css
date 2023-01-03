@@ -1,0 +1,46 @@
+
+
+ 
+ .accordion {
+    background-color: whitesmoke;
+    color: brown;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    transition-duration: 1.5s;
+    font-size: 20px;
+  }
+
+  .active, .accordion:hover {
+    background-color: lightgray;
+    
+  }
+
+  .inside-acc {
+    padding: 0 18px;
+    background-color: lightgray;
+    display: none;
+    overflow: hidden;
+    transition: height 0.3s ease-out;
+    
+  }
+
+  .accordion:after {
+    content: '+';
+    font-size: 25px;
+    color: black;
+    position: absolute;
+    margin-left: 5px;
+    right: 1rem;
+    transition: opacity .5s ease-out;
+  }
+  
+  .active:after {
+    content: '-'
+  }
+
+ 
