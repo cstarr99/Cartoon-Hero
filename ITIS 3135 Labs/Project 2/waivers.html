@@ -1,108 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Fantasy Football Facts.com</title>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="stylesheet" href="css/waivers.css">
-        <link rel="stylesheet" href="css/styles.css">
-        <script src="waivers.js" defer></script>
-    </head>
-    <body>
-        <header>
-            <img class="logo" src="Pictures/letterF.jpeg" alt="letterF">
-            <h1>Waivers</h1>
-            <nav>
+  <head>
+    <title>Fantasy Football Facts.com</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="css/waivers.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="waivers.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="Pictures/letterF.jpeg" alt="letterF" />
+      <h1>Waivers</h1>
+      <nav>
         <ul class="links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="drafting.html">Drafting</a></li>
-            <li><a href="trades.html">Trades</a></li>
-            <li class="active-link"><a href="waivers.html">Waivers</a></li>
-        </ul> 
-            </nav> 
-        </header>
-            <div class="main-grid">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="drafting.html">Drafting</a></li>
+          <li><a href="trades.html">Trades</a></li>
+          <li class="active-link"><a href="waivers.html">Waivers</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="main-grid">
+      <div class="waiver-priority-combo">
+        <h2 class="waiver-priority-title">Waiver Priority</h2>
+        <p class="waiver-priority">
+          Generally, after each week the league is ranked by best teams to worst
+          team. This is first organized by record, and if two teams have the
+          same record then it is determined by which team has more overall
+          points. So the waiver priority goes in reversed order, worst teams
+          have highest waiver priority and can have first choice of available
+          players. All waivers are processed by wednesday.
+        </p>
+        <img
+          class="waiver-img"
+          src="Pictures/waiverpriority.png"
+          alt="waiverpriority"
+        />
+      </div>
 
-          <div class="waiver-priority-combo">
-          <h2 class="waiver-priority-title">Waiver Priority</h2>
-          <p class="waiver-priority">
-          Generally, after each week the league is ranked by best teams to worst team. 
-          This is first organized by record, and if two teams have the same record then it is determined by which team has more overall points.
-          So the waiver priority goes in reversed order, worst teams have highest waiver priority and can have first choice of available players. 
-          All waivers are processed by wednesday.
-          </p>
-          <img class="waiver-img" src="Pictures/waiverpriority.png" alt="waiverpriority">
-          </div>
+      <div class="pickups-combo">
+        <h2 class="pickups-title">Pickups</h2>
+        <p class="pickups">
+          Now that you know what the waiver wire is and how priority works, it's
+          good to know what good pickups are and what pickups are fools gold.
+          Most people will see a player have a good week and want to pick them
+          up. This is wrong, you should not mainly be looking for points. The
+          main thing to look at is consistency and evidence to show its
+          repeatable.
+        </p>
+        <p class="pickups-2">
+          Some good metrics to look at are targets, role on the team, and if
+          they are young. For example, if a player has 8 receptions for 50 yards
+          it shows that his points were not luck and he has a big role on the
+          team. If a player has 1 catch for 5 yards and a touchdown, its bad
+          because without the touchdown the player would have done bad, so the
+          points are most likely unrepeatable.
+        </p>
+      </div>
 
-          <div class="pickups-combo">
-          <h2 class="pickups-title">Pickups</h2>
-          <p class="pickups">
-            Now that you know what the waiver wire is and how priority works, it's good to know what good pickups are and what pickups are fools gold.
-            Most people will see a player have a good week and want to pick them up. This is wrong, you should not mainly be looking for points.
-            The main thing to look at is consistency and evidence to show its repeatable. 
-            </p>
-            <p class="pickups-2">
-            Some good metrics to look at are targets, role on the team, and if they are young. For example, if a player has 8 receptions for 50 yards it shows that his points were not luck and he has a big role on the team.
-            If a player has 1 catch for 5 yards and a touchdown, its bad because without the touchdown the player would have done bad, so the points are most likely unrepeatable.
-          </p> 
-          </div>
+      <div class="bench-combo">
+        <h2 class="bench-title">Bench</h2>
+        <p class="bench">
+          The bench are the players that you have on your team but dont start.
+          The best strategy for your bench is to keep a few players that are
+          reliable but have little upside to be safe and make sure you have
+          players to get points. However, most of the bench should be dedicated
+          to young players or rookies at WR or RB. This is because young players
+          are unpredictable but have incredible ceilings meaning you could get
+          great value for them.
+        </p>
+        <p class="bench-2">
+          These players have much higher upside than older players usually. The
+          reason to mostly include RB and WR is becuase it is more important to
+          be deep here becuase they make up the majority of your team. A big
+          misconception is that you must have a backup for each position, but
+          this is not true you can usually pickup these positions when you need
+          them. Below are some different examples of a bench.
+        </p>
+      </div>
+      <div class="Bench Calculator">
+        <h2>Bench Calculator</h2>
+        <p>
+          The bench Calculator here will allow you to see if your bench out
+          performed your starting lineup by adding together all the starters and
+          bench players.
+        </p>
+        <form>
+          <label for="starting-qb">Starting QB</label>
+          <input
+            type="number"
+            id="starting-qb"
+            name="starting-qb"
+            min="0"
+            max="100"
+            required
+          />
 
-          <div class="bench-combo">
-          <h2 class="bench-title">Bench</h2>
-          <p class="bench">
-            The bench are the players that you have on your team but dont start. The best strategy for your bench is to keep a few players that are reliable but have little upside to be safe and make sure you have players to get points.
-            However, most of the bench should be dedicated to young players or rookies at WR or RB. This is because young players are unpredictable but have incredible ceilings meaning you could get great value for them. 
-            </p>
-            <p class="bench-2">
-            These players have much higher upside than older players usually. The reason to mostly include RB and WR is becuase it is more important to be deep here becuase they make up the majority of your team. 
-            A big misconception is that you must have a backup for each position, but this is not true you can usually pickup these positions when you need them. Below are some different examples of a bench.
-          </p>
+          <label for="starting-wr">Starting WR</label>
+          <input
+            type="number"
+            id="starting-wr"
+            name="starting-wr"
+            min="0"
+            max="100"
+            required
+          />
+
+          <label for="starting-rb">Starting RB</label>
+          <input
+            type="number"
+            id="starting-rb"
+            name="starting-rb"
+            min="0"
+            max="100"
+            required
+          />
+
+          <label for="bench-qb">Bench QB</label>
+          <input
+            type="number"
+            id="bench-qb"
+            name="bench-qb"
+            min="0"
+            max="100"
+            required
+          />
+
+          <label for="bench-wr">Bench WR</label>
+          <input
+            type="number"
+            id="bench-wr"
+            name="bench-wr"
+            min="0"
+            max="100"
+            required
+          />
+
+          <label for="bench-rb">Bench RB</label>
+          <input
+            type="number"
+            id="bench-rb"
+            name="bench-rb"
+            min="0"
+            max="100"
+            required
+          />
+        </form>
+        <div class="summary">
+          <p id="start-total">Starters Total:</p>
+          <p class="result"></p>
+          <p id="bench-total">Bench Total:</p>
+          <p class="result"></p>
+          <p id="high">Highest Scorer:</p>
+          <p class="result"></p>
+        </div>
+      </div>
+
+      <h2>Find Gif</h2>
+      <p>
+        Here is a fun little search area to search for gifs of football related
+        content. To use it just type in something related to football.
+      </p>
+      <form id="gif-search">
+        <input type="text" placeholder="Enter name..." />
+        <button id="search">Search</button>
+      </form>
+      <div class="holder"></div>
     </div>
-    <div class="Bench Calculator">
-    <h2>Bench Calculator</h2>
-    <p>The bench Calculator here will allow you to see if your bench out performed your starting lineup by adding together all the starters and bench players.</p>
-    <form>
-        <label for="starting-qb">Starting QB</label>
-        <input type="number" id="starting-qb" name="starting-qb" min="0" max="100" required>
-
-        <label for="starting-wr">Starting WR</label>
-        <input type="number" id="starting-wr" name="starting-wr" min="0" max="100" required>
-
-        <label for="starting-rb">Starting RB</label>
-        <input type="number" id="starting-rb" name="starting-rb" min="0" max="100" required>
-
-        <label for="bench-qb">Bench QB</label>
-        <input type="number" id="bench-qb" name="bench-qb" min="0" max="100" required>
-
-        <label for="bench-wr">Bench WR</label>
-        <input type="number" id="bench-wr" name="bench-wr" min="0" max="100" required>
-
-        <label for="bench-rb">Bench RB</label>
-        <input type="number" id="bench-rb" name="bench-rb"  min="0" max="100" required>
-    </form>
-    <div class="summary">
-        <p id="start-total">Starters Total:</p>
-        <p class="result"></p>
-        <p id="bench-total">Bench Total:</p>
-        <p class="result"></p>
-        <p id="high">Highest Scorer:</p>
-        <p class="result"></p>
-    </div>
-    </div>
-
-
-    <h2>Find Gif</h2>
-    <p>Here is a fun little search area to search for gifs of football related content. To use it just type in something related to football. </p>
-    <form id="gif-search">
-    <input  type="text" placeholder="Enter name...">
-    <button id="search">Search</button>
-    </form>
-    <div class="holder"></div>
-
-  </div>
-        <footer>
-            <img class="logo" src="Pictures/letterF.jpeg" alt="letterF">
-            <p class="copyright">&copy;2022 Fantasy Football Facts. All rights reserved.</p>
-        </footer>
-    </body>
+    <footer>
+      <img class="logo" src="Pictures/letterF.jpeg" alt="letterF" />
+      <p class="copyright">
+        &copy;2022 Fantasy Football Facts. All rights reserved.
+      </p>
+    </footer>
+  </body>
 </html>
